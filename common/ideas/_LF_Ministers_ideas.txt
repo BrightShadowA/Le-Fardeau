@@ -1,0 +1,119 @@
+## <3 <3 <3 KAISERREICH <3 <3 <3
+
+ideas = {
+
+  ################################################################################################################################################################################################
+  ### FRA
+  ################################################################################################################################################################################################
+
+	head_of_government = { ### Head of Government ###
+		FRA_Gaston_Duomergue_hog_con = {
+			allowed = {original_tag = FRA
+			}
+		
+			available = {
+				has_government = conservative
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Gaston_Duomergue_dead}
+				NOT = {has_country_flag = Gaston_Duomergue_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = no
+		}
+		}
+	economy_minister = { ### Economy Minister ###
+		FRA_Henry_Cheron_eco_con = { 
+			allowed = {original_tag = FRA}
+			available = {
+				has_government = conservative
+				NOT = {has_country_flag = Henry_Cheron_dead}
+				NOT = {has_country_flag = Hendry_Cheron_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				conservative
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = no
+		}
+		}
+foreign_minister = { ### Foreign Minister ###
+		FRA_Rene_Lucien_Massigli_for_con = {
+			allowed = {original_tag = FRA }
+			available = {
+				has_government = conservative
+				NOT = {has_country_flag = Rene_Lucien_Massigli_dead}
+				NOT = {has_country_flag = Rene_Lucien_Massigli_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				conservative
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+}
+	security_minister = { ### Security Minister ###
+		FRA_Henri_Queuille_sec_con = { 
+			allowed = {original_tag = FRA}
+			available = {
+				has_government = conservative
+				NOT = {has_country_flag = Henri_Queuille_dead}
+				NOT = {has_country_flag = Henri_Queuille_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				conservative
+				sec_back_stabber
+			}
+			cancel_if_invalid = no
+		}
+}
+	head_of_intel = { ### Head of Intel ###
+		FRA_Rene_Nicolau_int_con = { 
+			allowed = {original_tag = FRA}
+			available = {
+				has_government = conservative				
+				NOT = {has_country_flag = Rene_Nicolau_dead}
+				NOT = {has_country_flag = Rene_Nicolau_int_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = int_cannot_be_replaced}
+			}
+			traits = {
+				head_of_intel
+				conservative
+				int_dismal_enigma
+			}
+			cancel_if_invalid = no
+		}
+}
+	armament_minister = { ### Armament Minister ###
+		FRA_Marie_Emile_Fayolle_arm_con = { 
+			allowed = {original_tag = FRA}
+			available = {
+				has_government = conservative
+				NOT = {has_country_flag = Marie_Emile_Fayolle_dead}
+				NOT = {has_country_flag = Marie_Emile_Fayolle_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = arm_cannot_be_replaced}
+			}
+			traits = {
+				armament_minister
+				conservative
+				arm_battle_fleet_proponent
+			}
+			cancel_if_invalid = no
+		}
+}
+}

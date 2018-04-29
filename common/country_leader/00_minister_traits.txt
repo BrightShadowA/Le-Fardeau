@@ -1,0 +1,547 @@
+leader_traits = {
+
+	undistinguished_suit = {
+		random = yes
+	}
+
+	########################################
+	## HEAD of GOVERNMENT
+	########################################
+	hog_backroom_backstabber = {
+
+		political_power_gain = 0.15	
+		stability_factor = -0.1
+
+		random = no
+	}
+
+
+	hog_silent_workhorse = {
+
+		political_power_gain = 0.07
+		local_resources_factor = 0.05
+		local_factories = 0.05
+
+
+		random = no
+	}
+
+	
+
+	hog_happy_amateur = {
+
+		production_speed_industrial_complex_factor = 0.075
+		industrial_capacity_factory = 0.05
+		political_advisor_cost_factor = 0.25
+		political_power_gain = -0.1
+
+		random = no
+	}
+
+
+	hog_ambitious_union_boss = {
+
+		stability_factor = 0.075
+		conversion_cost_civ_to_mil_factor = 0.4
+		industrial_capacity_factory = -0.05
+
+		random = no
+	}
+
+
+	hog_corporate_suit= {
+
+		industrial_capacity_factory = 0.12
+
+		random = no
+	}
+
+
+	hog_smiling_oilman = {
+
+		production_speed_synthetic_refinery_factor = 0.2
+		production_oil_factor = 0.2
+
+		random = no
+	}
+
+
+	hog_political_protege = {
+
+		political_power_gain = 0.1
+		stability_factor = 0.05
+		consumer_goods_factor = 0.05	
+
+		random = no
+	}
+
+
+	hog_flamboyant_tough_guy = {
+
+		stability_factor = 0.1
+		political_power_gain = -0.1
+
+		random = no
+	}
+
+
+	hog_naive_optimist = {
+
+		production_speed_industrial_complex_factor = 0.15
+		mobilization_laws_cost_factor = 0.25
+
+		random = no
+	}
+
+
+
+	hog_old_general = {
+
+		max_command_power = 10
+		war_support_factor = 0.07
+		experience_gain_army = 0.05
+
+		random = no
+	}
+
+
+
+	hog_old_admiral = {
+
+		production_speed_naval_base_factor = 0.15
+		production_speed_dockyard_factor = 0.15
+		experience_gain_navy = 0.05
+
+		random = no
+	}
+
+
+
+	hog_old_air_marshal = {
+		production_speed_air_base_factor = 0.25
+		experience_gain_air = 0.05
+
+
+		equipment_bonus = {
+			fighter_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			heavy_fighter_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			CAS_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			tac_bomber_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			strat_bomber_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
+
+		random = no
+	}
+
+
+	########################################
+	## ECONOMY MINISTERS
+	########################################
+
+
+	eco_administrative_genius = {
+
+		line_change_production_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		production_speed_buildings_factor = 0.05
+		local_resources_factor = 0.05
+
+		random = no
+	}
+
+
+	eco_military_entrepreneur = {
+
+		conversion_cost_civ_to_mil_factor = -0.15
+		production_speed_arms_factory_factor = 0.07
+		production_speed_dockyard_factor = 0.07
+
+		random = no
+	}
+
+
+	eco_corrupt_kleptocrat = {
+
+		political_power_gain = 0.05	
+		consumer_goods_factor = 0.05
+
+		random = no
+	}
+
+
+	eco_laissez_faire_capitalist = {
+
+		production_speed_industrial_complex_factor = 0.1
+		local_factories = 0.1
+		local_resources_factor = 0.05
+		consumer_goods_factor = 0.05
+
+		random = no
+	}
+
+
+	eco_resource_industrialist = {
+
+		local_resources_factor = 0.15
+		production_speed_synthetic_refinery_factor = 0.1
+		production_speed_infrastructure_factor = 0.1
+
+		random = no
+	}
+
+	########################################
+	## FOREIGN MINISTERS
+	########################################
+
+	for_great_compromiser = {
+
+		
+		random = no
+	}
+
+	for_cloak_and_dagger_schemer = {
+
+
+		random = no
+	}
+
+	for_biased_intellectual = {
+
+
+		random = no
+	}
+
+	for_iron_fisted_brute = {
+
+
+		random = no
+	}
+
+	for_ideological_crusader = {
+
+
+		random = no
+	}
+
+	for_apologetic_clerk = {
+
+
+		random = no
+	}
+
+	########################################
+	## ARMAMENT MINISTERS
+	########################################
+
+
+
+	arm_infantry_proponent = {
+
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		production_speed_arms_factory_factor = 0.05
+
+		random = no
+	}
+
+	arm_tank_proponent= {
+
+		equipment_bonus = {
+			armor = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		production_speed_arms_factory_factor = 0.05
+
+		random = no
+	}
+	
+
+	arm_battle_fleet_proponent = {
+
+		ai_focus_naval_factor = 0.1
+
+		equipment_bonus = {
+
+			capital_ship = {
+				build_cost_ic = -0.07
+				instant = yes
+			}
+			screen_ship = {
+				build_cost_ic = -0.07
+				instant = yes
+			}
+
+		}
+		production_speed_dockyard_factor = 0.12
+		random = no
+	}
+	
+
+	arm_submarine_proponent = {
+
+		ai_focus_naval_factor = 0.1
+
+		equipment_bonus = {
+			submarine = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		production_speed_dockyard_factor = 0.12
+
+		random = no
+	}
+
+
+	arm_air_to_sea_proponent = {
+
+		ai_focus_naval_air_factor = 0.1
+		equipment_bonus = {
+			nav_bomber_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			cv_fighter_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			cv_nav_bomber_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
+		production_speed_arms_factory_factor = 0.05
+
+		random = no
+	}
+
+
+	arm_air_to_ground_proponent = {
+
+
+		ai_focus_aviation_factor = 0.1
+		equipment_bonus = {
+			CAS_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			tac_bomber_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+
+
+		}
+		production_speed_arms_factory_factor = 0.05
+		
+		random = no
+	}
+
+
+	arm_strategic_air_proponent = {
+
+		ai_focus_aviation_factor = 0.1
+		equipment_bonus = {
+			strat_bomber_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+
+		production_speed_arms_factory_factor = 0.05
+		random = no
+	}
+
+
+	arm_air_superiority_proponent = {
+
+		equipment_bonus = {
+			fighter_equipment = {
+				build_cost_ic = -0.07
+				instant = yes
+			}
+			heavy_fighter_equipment = {
+				build_cost_ic = -0.07
+				instant = yes
+			}
+		}
+		production_speed_radar_station_factor = 0.15
+		production_speed_anti_air_building_factor = 0.15
+		production_speed_air_base_factor = 0.15
+
+
+		random = no
+	}
+
+
+	arm_rocket_proponent = {
+		ai_focus_military_advancements_factor = 0.3
+		production_speed_rocket_site_factor = 0.35
+		research_time_factor = -0.07
+
+		random = no
+	}
+
+
+	arm_nuclear_proponent = {
+		ai_focus_military_advancements_factor = 0.3
+		production_speed_nuclear_reactor_factor = 0.2
+		research_time_factor = -0.07
+
+		random = no
+	}
+
+
+
+	########################################
+	## SECURITY MINISTERS
+	########################################
+
+
+
+	sec_man_of_the_people = {
+
+		stability_factor = 0.1
+		resistance_tick = -0.2		
+		consumer_goods_factor = 0.05
+
+		random = no
+	}
+
+
+	sec_silent_lawyer = {
+
+		political_power_gain = 0.05
+
+		random = no
+	}
+
+	sec_efficient_sociopath = {
+
+		political_power_gain = 0.12
+		stability_factor = -0.07
+
+		random = no
+	}
+
+	sec_crooked_kleptocrat = {
+
+		political_power_gain = 0.05	
+		consumer_goods_factor = 0.05
+
+
+		random = no
+	}
+
+
+	sec_prince_of_terror = {
+
+		stability_factor = 0.025
+		enemy_partisan_effect = -0.25
+		resistance_tick = -0.025
+		non_core_manpower = -0.01
+		conscription_factor = -0.05
+
+
+		random = no
+	}
+
+
+	sec_back_stabber = {
+
+		political_power_gain = 0.05	
+		encryption_factor = 0.05
+
+		random = no
+	}
+
+
+	sec_crime_fighter = {
+
+		stability_factor = 0.05
+
+		random = no
+	}
+
+
+	########################################
+	## INTEL MINISTERS
+	########################################
+
+	int_technical_specialist = {
+		decryption = 0.5
+		research_time_factor = -0.025	
+
+		random = no
+	}
+
+
+	int_dismal_enigma = {
+
+		encryption = 0.075
+		decryption = 0.025	
+
+		random = no
+	}
+
+
+	int_research_specialist = {
+
+		research_time_factor = -0.075
+
+		random = no
+	}
+
+
+	int_naval_intelligence_specialist = {
+		decryption = 0.025
+
+		convoy_raiding_efficiency_factor = 0.15
+		navy_submarine_detection_factor = 0.15
+		naval_retreat_chance = 0.1
+		sortie_efficiency = 0.1
+
+
+		random = no
+	}
+
+
+	int_industrial_specialist = {
+
+		decryption = 0.025			
+		production_speed_buildings_factor = 0.075
+
+		random = no
+	}
+
+
+	int_political_specialist = {
+
+		political_power_gain = 0.05		
+	    decryption = 0.05
+
+
+		random = no
+	}
+		}
